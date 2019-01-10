@@ -34,7 +34,9 @@ class TutorialHome extends StatelessWidget {
       floatingActionButton: FloatingActionButton(
         tooltip: 'Add', // used by assistive technologies
         child: Icon(Icons.add),
-        onPressed: null,
+        onPressed: () {
+          print('MyButton was pressed!');
+        },
       ),
     );
   }
